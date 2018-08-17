@@ -113,6 +113,8 @@ console.log( countChar("kakkerlak", "k") );
 
 console.log( countChar("michael", "M") );
 
+//i'm not sure why its returning 'm' as 0 times when i feel like it should show up as one
+
 // Creating a function thats calling a sting and a Letter
 //var that counts the number of times a letter appears in a string
 //as long as i is less than the lenght of the strong add 1 to it

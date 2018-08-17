@@ -1,1 +1,4 @@
-I was happy to have more practice with problem solving. I did have a bit of a hard time understanding the directions exactly and I am not sure if I followed them exactly. With the first problem, I did problem solve to get the correct solution in my own way and that in it's self felt good. I'm mainly worried that I'm not doing it correctly and taking the easy way out or that since I'm not doing it the exact way the directions were asking me to the code wouldn't function properly. I checked the function a few times in console.log and ultimately got the solution the question was asking me to get so I felt self assured in that. 
+# hw4 Gabrielle Tusberg
+
+
+I was happy to have more practice with problem solving. The first problem I figured out pretty quickly. With the problems that followed after that they got more and more tricky. With the last two I looked up my classmates work to see what they did after struggling for sometime. I was pretty close with those two but was ultimately just making it more complicated then it needed to be. 
