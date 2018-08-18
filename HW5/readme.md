@@ -7,6 +7,7 @@ I felt a little comfortable when first learning about this part of Javascript si
 The writing style and system in how you do it however either felt not as fresh in my mind or ultimately different then what I was use to.
 
 _Challenges_
+-----
 I'm having a bit difficulty understanding what the questions are asking me to do and breaking it down.
 Looking at other peoples work does help to understand what the ultimate goal is. It has been interesting seeing how we all do things differently.
 
