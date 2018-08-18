@@ -1,6 +1,6 @@
 #HW 5 Gabrielle Tusberg
 
-Alt-OOP
+OOP
 ------
 
 I felt a little comfortable when first learning about this part of Javascript since it reminded me of the class systems in p5.js.
