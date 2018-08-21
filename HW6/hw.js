@@ -47,7 +47,7 @@ window.onload = function(){
   firstheading.innerText = "WebTech #441";
   secondheading.innerText = "My First JavaScript Page";
   thirdheading.innerText = "By Gabrielle Tusberg";
-  firstparagraph.innerText = "This homework is about DOM and API. DOM stands for document object model. It is a programming interface for html and xml documents. API, Application Programming Interfaces, make your coding easier.";
+  firstparagraph.innerText = "This homework is about DOM and API. DOM stands for document object model. It is a programming interface for html and xml documents. API, Application Programming Interfaces, makes coding easier.";
   secondparagraph.innerText = "API is a code thats has been developed to allows different applications to communicate to one another, for example it allows HTML and Javascript to communicate. ";
   link.innerText = "Click Here";
 
