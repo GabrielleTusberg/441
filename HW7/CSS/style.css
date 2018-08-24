@@ -8,113 +8,30 @@ object, video {
   max-width:100%;
 }
 
+h1{font-family: 'Anton', sans-serif}
+h2{font-family: 'Josefin Sans', sans-serif}
+p{font-family: 'Indie Flower', sans-serif;}
+body {color: #ffffff;text-align:center;background-size: 10%;}
 
-body {
-  color: #ffffff;
-  text-align:center;
-  background-size: 10%;
-  /*margin: 1px 2px 3px 4px;*/
+.container {display: flex;flex-wrap: wrap;}
 
-}
+.box {overflow:auto;clear:both;margin:auto;padding:2px 2px 2px 2px;border:1px;solid #DDD;-webkit-box-shadow: 1px 1px 7px rgb(81, 141, 203);-moz-box-shadow: 1px 1px 7px rgb(81, 141, 203);
+    box-shadow: 1px 1px 7px rgb(81, 141, 203);border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;width: 300px;max-width: 100%;height: 300px;}
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
+.header{font-family: 'Anton';font-style: normal;color: black;}
 
-}
+.sub-header{font-family: 'Josefin Sans';font-style: italic;color: rgb(98, 103, 102);}
 
-.box {
-    /*padding-top: 0;*/
-    overflow:auto;
-    clear:both;
-    margin:auto;
-    padding:2px 2px 2px 2px;
-    border:1px
-    solid #DDD;
-    -webkit-box-shadow: 1px 1px 7px rgb(81, 141, 203);
-    -moz-box-shadow: 1px 1px 7px rgb(81, 141, 203);
-    box-shadow: 1px 1px 7px rgb(81, 141, 203);
-    border-radius:5px;
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    /*margin: auto;*/
-    width: 300px;
-    max-width: 100%;
-    height: 300px;
-    /*border: 5px;*/
-    /*padding: 20px;*/
-    /*border-radius: 10px;*/
-    /*-moz-border-radius: 10px;*/
-    /*-webkit-border-radius: 10px;*/
-}
+.dark_blue {background-color: white;opacity: .75;font-family: 'Indie Flower', serif;font-style: normal;color: black;}
 
-.header{
-  font-family: 'Anton';
-  font-style: normal;
-  color: black;
-}
+.light_blue {font-family: 'Indie Flower', serif;font-style: normal;color: black;}
 
-.sub-header{
-  font-family: 'Indie+Flower';
-  font-style: italic;
-  color: rgb(98, 103, 102);
-}
+.green {background-color: white;opacity: .75;font-family: 'Indie Flower', serif;font-style: normal;color: black;}
 
-.dark_blue {
-    background-color: white;
-    opacity: .75;
-    font-family: 'Josefin+Sans', serif;
-    font-style: normal;
-    color: black;
-}
-.light_blue {
-    font-family: 'Josefin+Sans', serif;
-    font-style: normal;
-    color: black;
-    /*background-color: white;*/
-    /*background-image: url(../images/iphone.jpg);
-    background-repeat: no no-repeat;
-    width:722px
-    max-width: 100%;*/
-    /*opacity: .75;*/
-    /*background-image:*/
-}
-.green {
-    background-color: white;
-    opacity: .75;
-    font-family: 'Josefin+Sans', serif;
-    font-style: normal;
-    color: black;
+.purple{font-family: 'Indie Flower', serif;font-style: normal;color: black;}
 
-}
-
-
-.purple{
-  font-family: 'Josefin+Sans', serif;
-  font-style: normal;
-  color: black;
-  /*background-image: url(../images/laptop.jpg);
-  background-repeat: no-repeat;
-  width:722px
-  max-width: 100%;*/
-    /*background-color: white;
-    opacity: .75;*/
-
-    /*background-image:*/
-}
-
-.footer{
-  float:inline-end
-  margin: auto;
-  margin-top: 0;
-  padding-top: 0;
-  padding-left: 0;
-  width: 100%;
-  background-color: rgb(76, 135, 205);
-  font-family: 'Josefin+Sans';
-  font-style: italic;
-  color: white;
-}
+.footer{float:inline-end; margin: auto; margin-top: 0; padding-top: 0;padding-left: 0; width: 100%; background-color: rgb(76, 135, 205);font-family: 'Josefin+Sans';
+font-style: italic;color: white;}
 
 @media (min-width: 450px) {
     .dark_blue {
