@@ -17,7 +17,7 @@ You chose courage: You're adventurous spirit brought you to a back ally restaura
 
 #### UGH I CAN'T
 
-Okay so I have been working on this for three days straight. I have gotten no where. I've been referencing other peoples hw and seeing how they went about it and I'm not organizing these problems separately. I'm looking at it as one whole and it's messing me up. I started making all three different files at once and I think that's where I went wrong. I got extremely overwhelmed and could not problem solve. I don't want to be a quitter but I think it best that I call it on this assignment and start off on a better route on assignment 9.
+Okay so I have been working on this for three days straight. I have gotten no where. I've been referencing other peoples hw and seeing how they went about it and I'm not organizing these problems separately. I'm looking at it as one whole and it's messing me up. I started making all three different files at once and I think that's where I went wrong. I got extremely overwhelmed and could not problem solve. I don't want to be a quitter I just don't have the ammount of time I need to get these buttons to work.
 
 ---
-My plan for HW 9 is to take it problem by problem and be much more organized. 
+My plan for HW 9 is to take it problem by problem and be much more organized.

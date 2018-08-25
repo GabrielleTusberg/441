@@ -7,9 +7,9 @@ window.onload = function(){
 
   let variable = document.createElement ("section");
 
-  let firstheading = document.querySelector('h1');
-  let secondheading = document.querySelector('h2');
-  let firstparagraph = document.querySelector('p');
+  let firstheading = document.querySelector('#pick');
+  let secondheading = document.querySelector('#future');
+  let firstparagraph = document.querySelector('#summary');
   let buttonC = document.querySelector('#b1');
   let buttonH = document.querySelector('#b2');
   let buttonK = document.querySelector('#b3');
@@ -18,9 +18,9 @@ window.onload = function(){
   let heading = document.createElement("h1");
   let paragraph = document.createElement('p');
   let anotherP = document.createElement('P');
-  let textEl = document.querySelector(".extra-text-container");
-  let textEl2 = document.querySelector(".another-text-container");
-  let textEl3 = document.querySelector(".original-text-container");
+  let container1 = document.querySelector(".first-text-container");
+  let container2 = document.querySelector(".second-text-container");
+  let container3 = document.querySelector(".third-text-container");
   let divEl1 = document.querySelector(".storageDiv");
   let formEl1 = document.querySelector(".nameForm");
   let myImage = new Image (400,500);
@@ -33,9 +33,8 @@ window.onload = function(){
   myImage3.src = "images/Image3.jpg";
 
   firstheading.innerText = "Take Your Pick";
-  secondheading.innerText = "(your future awaits)";
+  secondheading.innerText = "your future awaits";
   firstparagraph.innerText = "Everyone wants to accomplish several different things at once to better themselves in either health, knowledge, or courage. This adventure story will give you a path for each choice. There will be a consequence that follows.";
-
 
   firstheading.setAttribute ("style","font-size:20px; font-weight:bolder; line-height:25px;")
   secondheading.setAttribute ("style","font-size:18px; font-weight:bold; line-height:15px;")
@@ -61,8 +60,8 @@ window.onload = function(){
 
 
   buttonC.addEventListener("click", showHideText);
-  buttonH.addEventListener("click", showHideText2);
-  buttonK.addEventListener("click", showHideText3);
+  buttonK.addEventListener("click", showHideText2);
+  buttonH.addEventListener("click", showHideText3);
 
 
   function grabText() {
@@ -83,85 +82,92 @@ window.onload = function(){
       let storage = document.querySelector("#storageDiv");
 
       storage.appendChild(newP);
-
+  
   }
 
   document.querySelector("#runButton").addEventListener( 'click',grabText);
 
-
+  
 
   function showHideText() {
-      if(textEl.hidden){
+      if(container1.hidden){
           buttonC.innerText = "Return";
-          textEl.hidden = false;
+          container1.hidden = false;
+          myImage.hidden = false;
+          myImage1.hidden=true;
+          myImage2.hidden=true;
           formEl1.hidden = true;
           divEl1.hidden= true;
-          textEl3.hidden = true;
-          textEl2.hidden= true;
+          container2.hidden = true;
+          container3.hidden.hidden= true;
           el.hidden=true;
-
+          buttonH.hidden=true;
+          buttonK.hidden=true;
 
       } else {
           buttonC.innerText = "Courage";
-          textEl.hidden = true;
-          // divEl2.hidden=true;
+          container1.hidden = true;
           formEl1.hidden = false;
           divEl1.hidden=false;
-          textEl3.hidden=false;
-          btEl2.hidden=false;
           el.hidden=false;
+          buttonH.hidden=false;
+          buttonK.hidden=false;
 
       }
   }
 
   function showHideText2() {
-      if(textEl2.hidden){
-          buttonH.innerText = "Return";
-          textEl2.hidden = false;
-          imgEl1.hidden= false;
+      if(container2.hidden){
+          buttonK.innerText = "Return";
+          container2.hidden = false;
+          myImage.hidden = true;
+          myImage1.hidden=false;
+          myImage2.hidden=true;
           formEl1.hidden= true;
-          divEl1.hidden= true;
-          textEl3.hidden= true;
-          textEl.hidden= true;
-          btEl.hidden= true;
-          el.hidden= true;
-
+          divEl1.hidden=true;
+          container1.hidden=true;
+          container3.hidden=true;
+          el.hidden=true;
+          buttonC.hidden=true;
+          buttonH.hidden=true;
 
       } else {
-          buttonH.innerText = "Health";
-          textEl2.hidden = true;
-          imgEl1.hidden= true;
-          formEl1.hidden= false;
-          divEl1.hidden= false;
-          textEl3.hidden= false;
-          btEl.hidden= false;
-          el.hidden= false;
-
+          buttonK.innerText = "Knowledge";
+          container2.hidden = true;
+          formEl1.hidden = false;
+          divEl1.hidden=false;
+          el.hidden=false;
+          buttonC.hidden=false;
+          buttonH.hidden=false;
+          
       }
     }
       function showHideText3() {
-        if(textEl2.hidden){
-            buttonK.innerText = "Return";
-            textEl2.hidden = false;
-            imgEl1.hidden= false;
+        if(container3.hidden){
+            buttonH.innerText = "Return";
+            container3.hidden = false;
+            myImage.hidden = true;
+            myImage1.hidden=true;
+            myImage2.hidden=false;
             formEl1.hidden= true;
-            divEl1.hidden= true;
-            textEl3.hidden= true;
-            textEl.hidden= true;
-            btEl.hidden= true;
-            el.hidden= true;
+            divEl1.hidden=true;
+            container1.hidden=true;
+            container2.hidden=true;
+            el.hidden=true;
+            buttonC.hidden=true;
+            buttonK.hidden=true;
 
 
         } else {
-            buttonK.innerText = "Health";
-            textEl2.hidden = true;
-            imgEl1.hidden= true;
-            formEl1.hidden= false;
+            buttonH.innerText = "Health";
+            container3.hidden = true;
+            myImage2.hidden=true;
+            formEl1.hidden=false;
             divEl1.hidden= false;
-            textEl3.hidden= false;
-            btEl.hidden= false;
-            el.hidden= false;
+            el.hidden=false;
+            buttonC.hidden=false;
+            buttonK.hidden=false;
 
         }
-      }
+    }
 }
