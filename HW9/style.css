@@ -1,0 +1,17 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
+img, embed,
+object, video {
+  max-width:100%;
+}
+
+h1{text-align: center; font-family: 'Pacifico', sans-serif; background-image:url("./images/paint.png");}
+
+h2{text-align: center; font-family: 'Pacifico',sans-serif; }
+body{
+  background-color: rgb(176, 236, 231)
+}
+
+</style>
